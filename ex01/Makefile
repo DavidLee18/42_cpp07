@@ -1,6 +1,6 @@
 CXX := c++
 CXXFLAGS := -Wall -Werror -Wextra -Wconversion -g -std=c++98
-NAME := start_with_a_few_functions
+NAME := iter
 
 SRCS := main.cpp
 OBJS := $(patsubst %.cpp, %.o, $(SRCS))
